@@ -1,0 +1,103 @@
+* {
+    font-size: 14px;
+}
+
+.textoChico{
+    font-size: .8rem;
+    text-align: center;
+}
+.textoGrande{
+    font-size: 2rem;
+    text-align: center;
+}
+.textoResaltado{
+    font-size: 2rem;
+    text-align: center;
+    font-weight:600;
+}
+
+.foto{
+   
+    opacity:1;
+    filter: brightness(0.5);
+    position: relative;
+    
+   
+}
+
+.caption { 
+    color: white;
+    font-weight:bold;
+    
+    text-align: right;
+    padding-left: 55rem;
+    position: absolute; 
+    top: 35%; 
+    left: 1.5%; 
+    width: 80%; 
+   } 
+.card {
+    width: 20rem;
+    background-color: rgb(241, 241, 241);
+}
+
+.card a {
+    padding: .2rem .4rem .2rem .4rem;
+    font-size: .7rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 5px;    
+}
+
+
+/*Parte de la foto de honolulu y texto de buenos aires*/
+.fondo {
+    background-image: url("../images/honolulu.jpg");
+    background-size:cover;  
+    height: 400px;
+    width: 789px;
+        
+}
+.textoCiudad{
+    background-color: rgb(41, 41, 41);
+      
+    color: white;
+}
+.BsAs{
+    margin-bottom: 0.5em;
+    margin-top: 00.5em;
+    font-size: 2em;
+}
+.epigrafe{
+    font-size: .7rem;
+    color: gray;
+}
+
+
+/* Estilo del formulario
+form{
+    width: 65rem;
+    margin:auto;
+    padding: 2rem;
+}
+input{
+    width:45;
+    margin-left: rem;
+    box-sizing: border-box;
+ }
+textarea{
+    min-height: 4rem;
+    max-height: 20rem;
+    max-width: 100%;
+}
+#botonForm{
+    background-color:lawngreen;
+    color: white;
+    min-block-size: 100%;
+    
+}
+@media (max-width:480px){
+    form{
+        width:100%;
+    }
+} */
