@@ -1,5 +1,7 @@
 * {
     font-size: 14px;
+    margin: 0;
+    padding: 0;
 }
 
 .textoChico{
@@ -16,26 +18,38 @@
     font-weight:600;
 }
 
-.foto{
-   
-    opacity:1;
-    filter: brightness(0.5);
-    position: relative;
-    
-   
+.anuncio{
+   height: 800px; 
+   size: cover; 
+      
 }
 
-.caption { 
-    color: white;
-    font-weight:bold;
+.conf { 
+    background-image: url('../images/ba1.jpg'); 
     
+    background-size: cover;
+    background-position: center; 
+    height: 700px;    
+    opacity: 1;
+    filter: brightness (0.5);
+    filter: contrast(0.85);
+    filter:sepia(0.2) ;
+    filter: drop-shadow(0.5);
+    filter: saturate(0.9);
+    filter: url();
+
     text-align: right;
-    padding-left: 55rem;
-    position: absolute; 
-    top: 35%; 
-    left: 1.5%; 
-    width: 80%; 
-   } 
+    padding-left: 45%;
+    padding-right: 8%;
+    padding-top: 15%; 
+    color: white;
+    font-weight: bold;
+}
+
+.boton{
+    font-weight:bold;
+}
+
 .card {
     width: 20rem;
     background-color: rgb(241, 241, 241);
@@ -50,17 +64,18 @@
 }
 
 
-/*Parte de la foto de honolulu y texto de buenos aires*/
-.fondo {
-    background-image: url("../images/honolulu.jpg");
-    background-size:cover;  
-    height: 400px;
-    width: 789px;
-        
-}
+
+ 
+#ban{
+
+    padding-right: 1% ;
+    
+} 
 .textoCiudad{
     background-color: rgb(41, 41, 41);
-      
+    padding-bottom: 2rem; 
+    padding: 2rem 4rem 2rem 2rem;
+    
     color: white;
 }
 .BsAs{
@@ -73,31 +88,3 @@
     color: gray;
 }
 
-
-/* Estilo del formulario
-form{
-    width: 65rem;
-    margin:auto;
-    padding: 2rem;
-}
-input{
-    width:45;
-    margin-left: rem;
-    box-sizing: border-box;
- }
-textarea{
-    min-height: 4rem;
-    max-height: 20rem;
-    max-width: 100%;
-}
-#botonForm{
-    background-color:lawngreen;
-    color: white;
-    min-block-size: 100%;
-    
-}
-@media (max-width:480px){
-    form{
-        width:100%;
-    }
-} */
